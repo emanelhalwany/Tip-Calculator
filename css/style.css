@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* container style */
+.container {
+    width: 450px;
+    height: 500px;
+    background-color: #720303;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 5px 2px 6px -3px black;
+}
+
+/* header style */
+.header {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
