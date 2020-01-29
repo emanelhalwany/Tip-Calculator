@@ -5,7 +5,7 @@
 /* container style */
 .container {
     width: 450px;
-    height: 500px;
+    height: 690px;
     background-color: #720303;
     margin: 100px auto;
     border-radius: 20px;
@@ -21,5 +21,64 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     font-size: 25px;
+    font-family: cursive;
+}
+
+/* calc div style  */
+
+.calc{
+    padding: 20px;
+    color: burlywood;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-family: cursive;
+    font-size: 21px;
+
+}
+
+.dollarSign{
+    font-size: 25px;
+}
+
+input{
+    width: 150px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+#demo,#demo2 {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#serviceSeclesction{
+    width: 250px;
+    font-size: 25px;
+    color: #ac0401;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.peopleSpan{
+
+}
+
+.calcButton{
+    width: 150px;
+    height: 60px;
+    font-size: 28px;
+    color: #ac0401;
+    cursor: pointer;
+    /* border-bottom-left-radius: 25px; */
+    border-top-right-radius: 25px;
+    margin: 50px 0px 15px 125px;
+}
+
+#tip,#tip-amount,#each {
+    text-align: center;
+    font-size: 30px;
     font-family: cursive;
 }

@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Tip Calculator</title>
-        <link rel="stylesheet" href="css/style.css" >
-    </head>
-    <body>
 
-        <div class="container">
-            <!-- header div -->
-            <div class="header">Tip Calculator</div>
+<head>
+    <meta charset="utf-8">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- header div -->
+        <div class="header">Tip Calculator</div>
+
+        <!-- calc div -->
+        <div class="calc">
+            <h2>How much was your Bill ?</h2>
+            <span class="dollarSign">$</span>
+            <input type="number" min="0" id="id1" class="bill" onchange="validation()">
+            <!-- <button onclick="myFunction()">ok</button> -->
+            <p id="demo"></p>
+
+            <h2>How was your Service ?</h2>
+            <select id="serviceSeclesction" class="quality">
+                <option value="30">Outstanding - 30%</option>
+                <option value="20">Good _ 20%</option>
+                <option value="15">Ok _ 15%</option>
+                <option value="10">Bad _ 10%</option>
+                <option value="5">Terrible _ 5%</option>
+            </select>
+
+            <h2>How many people are sharing the bill</h2>
+            <input type="number" min="0" id="id2" class="num-people" onchange="validation2()">
+            <span class="peopleSpan">People</span>
+            <p id="demo2"></p>
+            <br>
+
+            <button class="calcButton" onclick="calcTip()" >Calculate</button>
+
+            <p id="tip-amount"></p>
+            <p id="tip"></p>
+            <p id="each"></p>
 
         </div>
 
 
-        <script src="script.js"></script>
-    </body>
+    </div>
+<input type="number" id="in">
+<button onclick="inp()">ok</button>
+
+    <script src="script.js"></script>
+</body>
 
 </html>
