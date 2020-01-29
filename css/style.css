@@ -5,7 +5,7 @@
 /* container style */
 .container {
     width: 450px;
-    height: 690px;
+    height: fit-content;
     background-color: #720303;
     margin: 100px auto;
     border-radius: 20px;
