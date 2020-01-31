@@ -17,9 +17,8 @@
         <div class="calc">
             <h2>How much was your Bill ?</h2>
             <span class="dollarSign">$</span>
-            <input type="number" min="0" id="id1" class="bill" onchange="validation()">
-            <!-- <button onclick="myFunction()">ok</button> -->
-            <p id="demo"></p>
+            <input type="number" min="0" id="bill" onchange="validation()">
+            <p id="err-validation"></p>
 
             <h2>How was your Service ?</h2>
             <select id="serviceSeclesction" class="quality">
@@ -31,9 +30,9 @@
             </select>
 
             <h2>How many people are sharing the bill</h2>
-            <input type="number" min="0" id="id2" class="num-people" onchange="validation2()">
+            <input type="number" min="0" id="num-people" onchange="validation2()">
             <span class="peopleSpan">People</span>
-            <p id="demo2"></p>
+            <p id="err-validation2"></p>
             <br>
 
             <button class="calcButton" onclick="calcTip()" >Calculate</button>
@@ -43,11 +42,7 @@
             <p id="each"></p>
 
         </div>
-
-
     </div>
-<input type="number" id="in">
-<button onclick="inp()">ok</button>
 
     <script src="script.js"></script>
 </body>
