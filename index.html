@@ -17,7 +17,7 @@
         <div class="calc">
             <h2>How much was your Bill ?</h2>
             <span class="dollarSign">$</span>
-            <input type="number" min="0" id="bill" onchange="validation()">
+            <input type="number" min="0" id="bill" onchange="validation(this)">
             <p id="err-validation"></p>
 
             <h2>How was your Service ?</h2>
@@ -30,7 +30,7 @@
             </select>
 
             <h2>How many people are sharing the bill</h2>
-            <input type="number" min="0" id="num-people" onchange="validation2()">
+            <input type="number" min="0" id="num-people" onchange="validation(this)">
             <span class="peopleSpan">People</span>
             <p id="err-validation2"></p>
             <br>
