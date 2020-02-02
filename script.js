@@ -1,20 +1,10 @@
 
-//   validtion function for bill input 
-function validation() {
-  var inpObj = document.getElementById("bill");
-  if (!inpObj.checkValidity()) {
-    document.getElementById("err-validation").innerHTML = inpObj.validationMessage;
+//   validation function for bill input 
+function validation(el) {
+  if (!el.checkValidity()) {
+    document.getElementById("err-validation").innerHTML = el.validationMessage;
   } else {
     document.getElementById("err-validation").innerHTML = "";
-  }
-}
-//   validtion function for people input
-function validation2() {
-  var inpObj = document.getElementById("num-people");
-  if (!inpObj.checkValidity()) {
-    document.getElementById("err-validation2").innerHTML = inpObj.validationMessage;
-  }else {
-    document.getElementById("err-validation2").innerHTML = "";
   }
 }
 
